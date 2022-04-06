@@ -5,6 +5,7 @@ import Carddetail from "./component/carddetail";
 import { Route, Routes } from "react-router-dom";
 import Menu from "./component/menu";
 import Product from "./component/product";
+import Mcq from "./component/mcq";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Menu></Menu>
       <Routes>
         <Route path="/" exact="true" element={<Home />}></Route>
+        <Route path="/mcq" exact="true" element={<Mcq />}></Route>
         <Route path="/product/:id" exact="true" element={<Product />}></Route>
         <Route
           path="/carddetail/"

@@ -82,11 +82,6 @@ const Carddetail = ({ cardItems, addtostore, removetostore }) => {
         <div className="col-md-4">
           {cardItems.records.length > 0 ? (
             <h1>Checkout - {cardItems.records.length} Items</h1>
-
-
-
-
-            
           ) : (
             ""
           )}

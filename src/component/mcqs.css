@@ -1,0 +1,37 @@
+.mcq ul {
+    list-style:none;
+}
+.mcq{
+    padding: 50px;
+    min-height: 900px;
+}
+.mcq li {
+    margin: auto;
+    margin-top: 8px;
+    padding: 16px;
+    border: 3px solid darkgray;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 50%;
+}
+.btn-selected{
+    background-color: rgb(221, 230, 48);
+}
+.dark {
+    color: bisque;
+    background: black;
+}
+.btnmode{
+        position: fixed;
+        bottom: 100px;
+        right: 100px;
+        z-index: 10;
+}
+
+.final-results {
+    margin: auto;
+    width: 50%;
+    border: rgb(0, 0, 0) 3px solid;
+    padding: 16px;
+    border-radius: 16px;
+}

@@ -27,9 +27,9 @@ function Menu() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to={"/"}>
           Navbar
-        </a>
+        </Link>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -41,6 +41,11 @@ function Menu() {
             <li className="nav-item">
               <Link className="nav-link" to={"/carddetail"}>
                 View Cart
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to={"/mcq"}>
+                MCQ
               </Link>
             </li>
             <li className="nav-item">
@@ -60,7 +65,7 @@ function Menu() {
           <Modal.Title style={{ color: "#fff" }}>Add Product</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div  className="container card p-4">
+          <div className="container card p-4">
             <div className=" row">
               <Form className="col-md-6">
                 <Form.Group className="mb-3">
