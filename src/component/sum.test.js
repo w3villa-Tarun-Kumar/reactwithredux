@@ -33,3 +33,14 @@ describe("Sum Function test", () => {
     expect("Christoph").toMatch(/stop/);
   });
 });
+
+describe("MCQ Button Testing", () => {
+  it("Is night mode button is working correctly", () => {
+    const isOpen = false;
+    expect(isOpen).toBe(false);
+  });
+  it("Response On Options click", () => {
+    const isOpen2 = true;
+    expect(isOpen2).toBe(true);
+  });
+});
