@@ -1,2 +1,0 @@
-export const ADD_INCREMENT ='ADD_INCREMENT';
-export const STR_DECCREMENT ='STR_DECCREMENT';

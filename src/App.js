@@ -1,10 +1,5 @@
-//import logo from './logo.svg';
 import "./App.css";
-import Home from "./component/home";
-import Carddetail from "./component/carddetail";
 import { Route, Routes } from "react-router-dom";
-import Menu from "./component/menu";
-import Product from "./component/product";
 import Mcq from "./component/mcq";
 
 function App() {
@@ -39,16 +34,8 @@ function App() {
   ];
   return (
     <div className="App">
-      <Menu></Menu>
       <Routes>
-        <Route path="/" exact="true" element={<Home />}></Route>
-        <Route path="/mcq" exact="true" element={<Mcq data={questions} />}></Route>
-        <Route path="/product/:id" exact="true" element={<Product />}></Route>
-        <Route
-          path="/carddetail/"
-          exact="true"
-          element={<Carddetail />}
-        ></Route>
+        <Route path="/" exact="true" element={<Mcq data={questions} />}></Route>
         <Route path="*" element={<P404 />}></Route>
       </Routes>
     </div>
